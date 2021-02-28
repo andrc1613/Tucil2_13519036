@@ -8,20 +8,20 @@ package src;
 // Pengimpor sejati
 import java.util.*;
 
-public class GraphAndrew {
+public class Graph_13519036 {
 
     /*--- Kelas Butuh Atribut ---*/
-    private List<VerticeAndrew> graf; // Menyimpan simpul
+    private List<Vertice_13519036> graf; // Menyimpan simpul
     private int verticeCount; // Menyimpan jumlah simpul dalam graf
 
     /*--- Kelas Butuh Ctor ---*/
-    GraphAndrew() {
+    Graph_13519036() {
         this.graf = new ArrayList<>();
         verticeCount = 0;
     }
 
     /*--- Kelas Butuh Getter ---*/
-    public List<VerticeAndrew> getGraf() {
+    public List<Vertice_13519036> getGraf() {
         return graf;
     }
 
@@ -40,7 +40,7 @@ public class GraphAndrew {
      *  C3: C2
      */
     public void printGraph() {
-        for (VerticeAndrew i : this.graf) {
+        for (Vertice_13519036 i : this.graf) {
             System.out.printf("%s: ", i.getVerticeName());
             List<String> listIn = i.getInDegreeFrom();
             if (listIn.size() != 0) {
@@ -55,7 +55,7 @@ public class GraphAndrew {
     }
 
     // Menambahkan simpul ke dalam graf
-    public void addVertice(VerticeAndrew werdna) {
+    public void addVertice(Vertice_13519036 werdna) {
         this.graf.add(werdna);
         verticeCount++;
     }

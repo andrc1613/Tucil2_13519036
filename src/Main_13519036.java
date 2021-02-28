@@ -5,12 +5,12 @@ import java.util.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-public class EzLulus4Tahun {
+public class Main_13519036 {
     public static void main(String[] args) {
 
         /*--- Kamus dengan Kearifan Lokal ---*/
         Scanner input = new Scanner(System.in); // instansiasi tukang baca input user
-        GraphAndrew andrew = new GraphAndrew(); // instansiasi object graf
+        Graph_13519036 andrew = new Graph_13519036(); // instansiasi object graf
         int i; // index iterasi
 
         /*--- Algoritma tapi di OOP ---*/
@@ -41,7 +41,7 @@ public class EzLulus4Tahun {
                     for (i = 1; i < ele.length; i++) {
                         verticeIn.add(ele[i]);
                     }
-                    VerticeAndrew verticex = new VerticeAndrew(verticeName, verticeIn);
+                    Vertice_13519036 verticex = new Vertice_13519036(verticeName, verticeIn);
                     andrew.addVertice(verticex);
                 }
                 testSubject.close();
@@ -49,7 +49,7 @@ public class EzLulus4Tahun {
                 // Topological sort
                 andrew.printGraph();
                 System.out.println();
-                TopoSortAndrew topoSort = new TopoSortAndrew(andrew);
+                TopoSort_13519036 topoSort = new TopoSort_13519036(andrew);
 
                 // Mengecek 'seandainya' graf memiliki siklus atau graf tidak lengkap
                 if (topoSort.invalid) {

@@ -3,13 +3,13 @@ package src;
 // Pengimpor sejati
 import java.util.*;
 
-public class TopoSortAndrew {
+public class TopoSort_13519036 {
     /*--- Bahkan Tempat Sorting Butuh Atribut ---*/
     private List<List<String>> hasilSorting; // Menyimpan hasil sorting
     public boolean invalid; // Mengecek apakah graf memiliki siklus atau graf tidak lengkap
 
     /*--- Bahkan Tempat Sorting Butuh Ctor ---*/
-    TopoSortAndrew(GraphAndrew werdna) {
+    TopoSort_13519036(Graph_13519036 werdna) {
         hasilSorting = new ArrayList<>();
         TopologicalSorting(werdna);
     }
@@ -24,7 +24,7 @@ public class TopoSortAndrew {
      * 3. Hapus semua simpul tersebut dari graf.
      * 4. Ulangi langkah 1-3 sampai graf tidak memiliki simpul atau sebuah siklus ditemukan
      */
-    public void TopologicalSorting(GraphAndrew werdna) {
+    public void TopologicalSorting(Graph_13519036 werdna) {
         invalid = false;
         while (werdna.getVerticeCount() > 0 && !invalid) {
             List<String> listSorting = new ArrayList<>();

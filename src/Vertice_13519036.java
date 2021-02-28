@@ -8,7 +8,7 @@ package src;
 // Pengimpor sejati
 import java.util.*;
 
-public class VerticeAndrew {
+public class Vertice_13519036 {
 
     /*--- Kelas Butuh Atribut ---*/
     private String verticeName; // Menyimpan nama simpul
@@ -16,7 +16,7 @@ public class VerticeAndrew {
     private int inDegreeCount; // Menyimpan derajat simpul
 
     /*--- Kelas Butuh Ctor ---*/
-    VerticeAndrew(String verticeName, List<String> inDegreeFrom) {
+    Vertice_13519036(String verticeName, List<String> inDegreeFrom) {
         this.verticeName = verticeName;
         this.inDegreeFrom = inDegreeFrom;
         this.inDegreeCount = inDegreeFrom.size();
