@@ -5,7 +5,9 @@ Sebuah program penyusun rencana kuliah sederhana.
 EzLulus4Tahun adalah salah satu penerapan algoritma Decrease and Conquer, yaitu topological sorting.
 
 ## How does it work?
-Program akan menerima input nama file berisi graf dari user, lalu program akan menuliskan hasil topological sorting pada layar.
+1. Program akan menerima input nama file berisi graf dari user
+2. Program akan menuliskan graf dari file tersebut ke layar
+3. Program akan menuliskan hasil topological sorting pada layar.
 
 ## Requirements
 JDK 8 or higher.
