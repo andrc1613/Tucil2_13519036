@@ -1,0 +1,1 @@
+java -jar "bin/EzLulus4Tahun.jar"
