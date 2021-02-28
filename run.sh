@@ -1,1 +1,1 @@
-java -cp bin src.EzLulus4Tahun
+java -jar "bin/EzLulus4Tahun.jar"
